@@ -40,11 +40,7 @@ a:hover{
 /*imagem PRINCIPAL*/
 
 .tecnologia{
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
+    
     width: 100%;
     position: relative;
 }
@@ -78,28 +74,9 @@ h1{
     font-size: 30px;
 }
 
-/*Linguagens/Tecnologias*/
 
 
-.boxcinza{
-    background-color: rgb(245, 245, 245);
-    height: 500px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px rgb(168, 167, 167);
-}
 
-.lingtec{
-    margin-bottom: 100px;
-    margin-top: 300px;
-}
-
-.linguagens{
-    margin-bottom: 500px;
-}
-
-#css{
-    margin-left: 50px;
-}
 
 /*Projetos*/
 
