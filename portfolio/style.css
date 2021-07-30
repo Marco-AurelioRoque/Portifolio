@@ -2,55 +2,44 @@
 *{
     margin: 0;
     padding: 0;
+    border: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body{
+background-color: rgb(183, 183, 214);
+}
 /*Menu NAV*/
 
-nav{
-    background-color: rgb(103, 194, 255);
-    box-shadow: 5px 5px 5px rgb(24, 24, 252);
-}
-
-nav ul{
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-}
-
-ul li a{
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    padding: 30px;
-    display: inline-block;
-    text-decoration: none;
-    transition: background.5s;
-}
-
-nav ul li:first-child a{
-    float: right;
-}
-
-a:hover{
-    background-color: rgb(52, 243, 250);
-} 
-
-/*imagem PRINCIPAL*/
-
-.tecnologia{
-    
+header{
+    position: fixed;
     width: 100%;
-    position: relative;
+    top: 0;
+}
+nav{
+    background-color: rgb(183, 183, 214);
 }
 
-.tittleimg{
-    font-size: 50px;
-    position: absolute;
-    float: left;
-    color: blue;
+header nav ul{
+    display: inline-flex;
+    align-items: center;
+}
+
+header nav ul li{
+    margin-left: 50px;
+    list-style: none;
+    font-size: 20px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+}
+
+header nav ul #me img{
+    width: 100px;
+    border-radius: 50%;
+    
 }
 
 /*Sobre*/
